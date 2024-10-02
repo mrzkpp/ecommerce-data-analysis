@@ -14,7 +14,7 @@ order_reviews_dataset = pd.read_csv('data/order_reviews_dataset.csv')
 orders_dataset = pd.read_csv('data/orders_dataset.csv')
 product_category_name_translation = pd.read_csv('data/product_category_name_translation.csv')
 products_dataset = pd.read_csv('data/products_dataset.csv')
-sellers_dataset = pd.read_csv('dta/sellers_dataset.csv')
+sellers_dataset = pd.read_csv('data/sellers_dataset.csv')
 
 # Merge datasets
 customers_orders = pd.merge(orders_dataset, customers_dataset, on='customer_id', how='left')
