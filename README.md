@@ -31,7 +31,9 @@ pip install -r requirements.txt
 
 ### Running the Dashboard:
 Once the environment is set up, launch the Streamlit app using:
+```
 streamlit run app.py
+```
 
 Usage
 Data Analysis Notebook: Open and run notebook.ipynb to perform exploratory data analysis (EDA) and answer key business questions.
